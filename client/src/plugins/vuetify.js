@@ -1,7 +1,12 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
+import Vuetify from 'vuetify/lib'
+// import 'vuetify/dist/vuetify.min.css'
 
-Vue.use(Vuetify, {
+
+const opts = {
   iconfont: 'md',
-})
+};
+
+Vue.use(Vuetify)
+
+export default new Vuetify(opts)
