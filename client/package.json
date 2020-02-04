@@ -15,15 +15,14 @@
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuetify": "^2.2.6",
-    "vuetify-datetime-picker": "^2.1.1",
-    "sass-loader": "^8.0.2",
-    "fibers": "^4.0.2",
-    "deepmerge": "^4.2.2"
+    "vuetify-datetime-picker": "^2.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.2",
     "@vue/cli-plugin-eslint": "^4.1.2",
     "@vue/cli-service": "^4.1.2",
+    "deepmerge": "^4.2.2",
+    "fibers": "^4.0.2",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "vue-cli-plugin-vuetify": "^2.0.3",
