@@ -13,5 +13,6 @@ Vue.use(DatetimePicker)
 
 new Vue({
     router,
-    vuetify
+    vuetify,
+    render: h => h(App)
 }).$mount('#app')
